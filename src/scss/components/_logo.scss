@@ -1,0 +1,8 @@
+.logo {
+    width: 190px;
+    &__img {
+        @media (max-width:$desktop) {
+            width: 125px;
+        }
+    }
+}

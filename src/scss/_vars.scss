@@ -1,0 +1,62 @@
+// main
+$fontFamily: "CoFoSans";
+$fontSize: 15;
+$minWidth: 320;
+$maxWidth: 1920;
+$contentWidth: 1080;
+$containerOffset: 16;
+$containerWidth: calc($contentWidth + ($containerOffset * 2));
+
+// main colors
+$bodyColor: #fff; // Цвет body по умолчаниюу
+$mainColor: #3D3D3D; // Цвет шрифта по умолчанию
+
+:root {
+    --black: #000;
+    --white: #fff;
+
+    --primary600: #32425F;
+    --primary500: #3961AA;
+    --primary400: #2683F2;
+    --primary300: #78B4FB;
+    --primary200: #CBE3FF;
+    --primary100: #EBF1FB;
+    --primaryTwo: #707f8d;
+
+    --dark: #001a34;
+    --red: #FF4848;
+    --red-dark: #cc3333;
+    --green: #24CA8E;
+    --yellow: #FFDA16;
+    --pink: #FA8080;
+    --orange: #D86D00;
+    --gray: #3D3D3D;
+
+    --blue: #005bff;
+    --blue-dark: #065cc5;
+
+    --bg-page: #f2f5f7;
+}
+
+
+
+// others vars
+$transitionSpeed: 0.4s;
+$transitionFunction: ease-in-out;
+
+
+
+// break points
+$desktop: $containerWidth+px;
+$desktop-min: ($containerWidth + 1)+px;
+$tablet-max: 1024px;
+$tablet-min: 1025px;
+
+$smallTablet-max: 768px;
+$smallTablet-min: 769px;
+
+$mobile-max: 576px;
+$mobile-min: 577px;
+
+$smallMobile-max: 480px;
+$smallMobile-min: 481px;
